@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Bilan</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="stage.html">Entreprise</a></li>
+        <li><a href="projet.html">Réalisations</a></li>
+        <li><a href="veille.html">Veille</a></li>
+        <li><a href="bilan.html" class="active">Bilan</a></li>
+      </ul>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- CONTENU PRINCIPAL -->
+  <main>
+    <section id="bilan">
+      <h2>📘 Bilan de mes deux années de BTS SIO SLAM</h2>
+
+      <div class="card">
+        <h3>🎯 Retour global sur mes deux années</h3>
+        <p>
+          Ces deux années de BTS SIO option SLAM ont été pour moi une période d’apprentissage intense,
+          de découverte du monde professionnel et de construction de mon identité dans le domaine du numérique.
+          J’ai pu développer des compétences techniques solides, mais aussi des qualités humaines essentielles
+          pour travailler en équipe et mener des projets concrets.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🛠️ Ce que j’ai appris</h3>
+        <ul>
+          <li>Développement web : HTML, CSS, JavaScript, PHP, MySQL</li>
+          <li>Programmation orientée objet et logique algorithmique</li>
+          <li>Gestion de base de données et modélisation</li>
+          <li>Utilisation d’outils professionnels (GitHub, VS Code, VirtualBox…)</li>
+          <li>Analyse des besoins et rédaction de documentation technique</li>
+          <li>Travail en méthode projet et organisation du travail</li>
+        </ul>
+        <p>
+          J’ai également appris à être autonome, à chercher des solutions par moi‑même et à m’adapter
+          à des environnements techniques variés.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>💚 Ce que j’ai aimé</h3>
+        <ul>
+          <li>La pratique du développement et la satisfaction de voir un projet fonctionner</li>
+          <li>Les projets concrets réalisés en cours et en autonomie</li>
+          <li>Mon stage en start‑up, qui m’a permis de découvrir un vrai environnement professionnel</li>
+          <li>La progression rapide grâce à la pratique régulière</li>
+        </ul>
+
+        <h3>💔 Ce que j’ai moins aimé</h3>
+        <ul>
+          <li>La charge de travail parfois intense</li>
+          <li>Certains aspects très théoriques du programme</li>
+          <li>Le manque de temps pour approfondir certains langages</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>🔄 Ce que je ferais différemment</h3>
+        <p>
+          Avec du recul, je pense que j’aurais dû :
+        </p>
+        <ul>
+          <li>Commencer plus tôt certains projets pour éviter le stress de fin d’année</li>
+          <li>Pratiquer davantage la programmation en dehors des cours</li>
+          <li>Me former plus tôt sur GitHub et les bonnes pratiques de versioning</li>
+          <li>Oser poser plus de questions et demander plus de retours</li>
+        </ul>
+        <p>
+          Ces ajustements m’auraient permis de gagner en efficacité et en confiance.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🚀 Conclusion</h3>
+        <p>
+          Ce BTS m’a permis de confirmer mon intérêt pour le développement et l’intelligence artificielle.
+          Aujourd’hui, je me sens prête à poursuivre mes études dans ce domaine et à continuer à progresser.
+          Ces deux années ont été exigeantes mais extrêmement enrichissantes, et elles ont posé les bases
+          de mon futur parcours professionnel.
+        </p>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Hawa Doucouré — Portfolio BTS SIO SLAM</p>
+  </footer>
+
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector("nav ul");
+    hamburger.addEventListener("click", () => {
+      navMenu.classList.toggle("active");
+    });
+  </script>
+
+</body>
+</html>
